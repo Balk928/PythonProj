@@ -21,6 +21,7 @@ t2.marks(70,70,70)
 print("Daa:",t2.Daa,"CoreJava:",t2.coreJava,"FlA:",t2.FlA)
 z = t2.Daa+t2.coreJava+t2.FlA//3
 print("Average Marks is :",z)
+print("-------------------Employee Details------------------")
 t3 = Student()
 t3.f3(input("EmployeeId:"),input("Enter Name:"),float(input("Salary:")))
 print(t3.emp_id,t3.Emp_Name,t3.Salary)
