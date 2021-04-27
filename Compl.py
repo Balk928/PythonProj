@@ -1,6 +1,6 @@
 import calendar
 kilom = int(input("enter the kilometer:"))
-x = kilom/1.609
+x = kilom/0.609
 print(kilom,"kilometer convert to",x,"miles")
 
 print("-------------convert celsius to farenheit----------------")
