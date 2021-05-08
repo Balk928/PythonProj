@@ -1,5 +1,5 @@
 class Base:
-    x = 10  #Static variable
+    x = 30 #Static variable
     def __init__(self):
         self.x = tuple([eval(x) for x in input("enter the range").split(',')]) #instance Variable
         Base.x = [eval(x) for x in input("enter the number").split(',')]
