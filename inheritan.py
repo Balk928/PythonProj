@@ -8,6 +8,7 @@ class Base:
     def f1(self):
         print("base 1")
 class Derived(Base):
+    y = 20
     def __init__(self):
         self.y =[eval(x) for x in input("enter the sets").split(',')]
         super().__init__()
@@ -19,3 +20,4 @@ obj = Derived()
 obj.show_Derived()
 obj.show_Base()
 obj.f1()
+print(Derived.y)
